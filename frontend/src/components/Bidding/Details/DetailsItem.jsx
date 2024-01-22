@@ -269,7 +269,7 @@ function DetailsItem(props) {
 
                                 <div class="mt-4">
                                     <div class="col-lg-12 mb-2">
-                                        <div class="pic text-center"><img src={`http://10.10.18.121:8000/${Product.image}`} width="70%" height="30%" alt="" /></div>
+                                        <div class="pic text-center"><img src={`http://127.0.0.1:8000/${Product.image}`} width="70%" height="30%" alt="" /></div>
                                     </div>
                                     <div className="col-lg-12 mb-2">
                                         <div className="inline-flex align-items-center">

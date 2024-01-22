@@ -119,7 +119,7 @@ function SearchProduct() {
                         loading ? <Skeleton /> :
                             AllDataProduct.map((data, idx) => {
 
-                                const productimg = <Image src={`http://10.10.18.121:8000/${data.image}`}  className="clippath" alt="Image" width='200' height='200' />
+                                const productimg = <Image src={`http://127.0.0.1:8000/${data.image}`}  className="clippath" alt="Image" width='200' height='200' />
                                 const price_format = <p><NumericFormat value={data.price} thousandSeparator="," /></p>
                                 return (
                                     <>

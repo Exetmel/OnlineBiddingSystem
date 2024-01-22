@@ -163,7 +163,7 @@ function AccountDetails({data}) {
                                     ID
                                 </label>
                                 <div className="card border-0">
-                                    <Image width='200' src={`http://10.10.18.121:8000/${AccountInfo.files}`} alt='Photo' preview />
+                                    <Image width='200' src={`http://127.0.0.1:8000/${AccountInfo.files}`} alt='Photo' preview />
                                 </div>
                             </div>
                             <div className="mt-3">

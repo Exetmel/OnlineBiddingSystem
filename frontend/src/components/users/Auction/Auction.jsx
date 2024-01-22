@@ -140,7 +140,7 @@ function Auction() {
                         <div className="d-flex justify-content-between align-items-center">
                             <div>
                                 <div className="d-flex justify-content-evenly p-2">
-                                    <Image className='me-1' preview src={`http://10.10.18.121:8000/${ProductData.image}`} width='200' height='250' />
+                                    <Image className='me-1' preview src={`http://127.0.0.1:8000/${ProductData.image}`} width='200' height='250' />
                                     <div className="m-2 p-3">
                                         <div className='mb-2'> <span className='fs-6'>Seller Name:</span> {ProductData.name_user}</div>
                                         <div className='mb-2'> <span className='fs-6'>Product Name:</span> {ProductData.product_name}</div>

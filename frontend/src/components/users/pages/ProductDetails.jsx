@@ -320,7 +320,7 @@ function ProductDetails({ data }) {
                             loading ? <Skeleton className='w-100' borderRadius='20' />
                                 :
                                 <>
-                                    <Image width='100%' height='300' className='text-center mb-4 rounded w-100' src={`http://10.10.18.121:8000/${ProductDetailsInfo.image}`} tooltip='Image' alt='Photo' preview />
+                                    <Image width='100%' height='300' className='text-center mb-4 rounded w-100' src={`http://127.0.0.1:8000/${ProductDetailsInfo.image}`} tooltip='Image' alt='Photo' preview />
                                     <div className="col-lg-12 col-md-12 col-sm-12 mb-2">
                                         <p>{ProductDetailsInfo.description}</p>
                                     </div>

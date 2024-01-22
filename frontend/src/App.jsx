@@ -17,7 +17,7 @@ import Frontpage from './components/frontpage/Frontpage';
 axios.defaults.baseURL = "http://127.0.0.1:8000/";
 
 // urios 
-axios.defaults.baseURL = "http://10.10.18.121:8000/";
+// axios.defaults.baseURL = "http://10.10.18.121:8000/";
 
 // Apartment url
 // axios.defaults.baseURL = "http://192.168.1.3:8000/";
